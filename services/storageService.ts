@@ -1,9 +1,9 @@
 import { User, Goal, AppNotification } from "../types";
 
 const KEYS = {
-  USER: 'savepath_user',
-  GOALS: 'savepath_goals',
-  NOTIFICATIONS: 'savepath_notifications',
+  USER: 'prizio_user',
+  GOALS: 'prizio_goals',
+  NOTIFICATIONS: 'prizio_notifications',
 };
 
 export const StorageService = {

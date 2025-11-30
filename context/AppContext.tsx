@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import { User, Goal, AppNotification } from '../types';
 import { StorageService } from '../services/storageService';
 import { signInWithGoogle, signOutUser, getAuth } from '../services/firebase';
@@ -111,7 +111,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         if (Notification.permission === 'granted') {
           new Notification("Time to Save!", {
             body: `It's ${timeStr}. Update your savings goals for today!`,
-            icon: "/icon.png" // Assumed path
+            // Removed local icon path to prevent 404s
           });
         }
 

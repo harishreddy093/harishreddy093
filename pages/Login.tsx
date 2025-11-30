@@ -32,9 +32,9 @@ export const Login = () => {
 
       <GlassCard className="w-full max-w-sm z-10 flex flex-col items-center py-12 px-8 text-center backdrop-blur-2xl">
         <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center text-3xl font-bold mb-6 shadow-lg shadow-primary/30">
-          S
+          P
         </div>
-        <h2 className="text-2xl font-bold mb-2">Welcome to SavePath</h2>
+        <h2 className="text-2xl font-bold mb-2">Welcome to Prizio</h2>
         <p className="text-gray-400 mb-8">Sync your goals across all devices.</p>
 
         <button 

@@ -47,7 +47,7 @@ const BottomNav = () => {
 
       {/* Desktop Sidebar (Hidden on mobile) */}
       <div className="hidden sm:flex flex-col h-full bg-surface border-r border-white/5 w-20 items-center py-8 gap-8">
-        <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center font-bold text-lg">S</div>
+        <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center font-bold text-lg">P</div>
         <div className="flex flex-col gap-4 flex-1">
            {navItems.map((item) => (
             <Link 

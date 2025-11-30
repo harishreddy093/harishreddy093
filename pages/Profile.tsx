@@ -212,7 +212,7 @@ export const Profile = () => {
         Log Out
       </NeonButton>
       
-      <p className="text-center text-xs text-gray-600 mt-8 mb-4">SavePath v1.2.0</p>
+      <p className="text-center text-xs text-gray-600 mt-8 mb-4">Prizio v1.2.0</p>
     </div>
   );
 };
